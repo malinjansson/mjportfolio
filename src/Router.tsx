@@ -2,6 +2,18 @@ import { createBrowserRouter } from "react-router";
 
 export const router = createBrowserRouter([
     {
-        path: "/"
+        path: "/",
+        element: <Layout/>,
+        errorElement: <NotFound />,
+        children: [
+            {
+                path: "/",
+                element: <Home />
+            },
+            {
+                path: "/project/:slug",
+                element: <Project />
+            }
+        ]
     }
 ])
