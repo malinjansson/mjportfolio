@@ -1,0 +1,68 @@
+@use "variables" as v; 
+@use "mixins" as m;
+
+footer {
+    background-color: v.$primary-bg-color;
+
+     .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em;
+        gap: 1.2rem;
+
+        @include m.desktop {
+            gap: 2rem;
+        }
+
+
+        h3 {
+            font-family: v.$primary-font-family;
+            text-transform: uppercase;
+            font-size: v.$h3-mobile;
+
+            @include m.desktop {
+                font-size: 1.5rem;
+            }
+        }
+
+        span {
+            color: v.$primary-color;
+            font-family: v.$primary-font-family;
+            letter-spacing: 1px;
+            font-size: 14px;
+
+            @include m.desktop {
+                font-size: 1.4rem;
+            }
+        }
+
+
+        .so-me-links {
+            li {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+
+                @include m.desktop {
+                    gap: 1.5rem;
+                }
+            }
+                
+            a {
+                font-size: 2.5rem;
+                color: v.$primary-color;
+
+                @include m.desktop {
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        .footer-bottom {
+            padding-top: 2rem;
+            opacity: 50%;
+            font-family: v.$secondary-font-family
+        }
+    }
+}

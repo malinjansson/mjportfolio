@@ -1,0 +1,15 @@
+@use "mixins" as m;
+
+main {
+    width: 100%;
+    flex: 1;
+    min-height: 100vh;
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    @include m.desktop {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+}

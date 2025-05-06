@@ -1,0 +1,15 @@
+@use "variables" as v;
+
+$desktop-max: v.$desktop - 1px;
+
+@mixin tablet {
+  @media (min-width: v.$tablet) and (max-width: $desktop-max) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: v.$desktop) {
+    @content;
+  }
+}
