@@ -64,7 +64,7 @@
     h3 {
         font-family: v.$primary-font-family;
         text-transform: uppercase;
-        letter-spacing: v.$text-space;
+        letter-spacing: v.$heading-text-space;
         padding-bottom: v.$heading-padding-bottom;
 
         @include m.desktop {
