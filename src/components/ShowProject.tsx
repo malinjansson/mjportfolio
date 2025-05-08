@@ -7,13 +7,15 @@ type ShowProjectProps = {
   
   export const ShowProject = (props: ShowProjectProps) => {
     return (
-        <Link to={"/project/" + props.project.slug}>
-            <div className="project-card">
-              <div className="productcard-box"> 
-                <img src={props.project.productCard}/>
+        <div className="project-container">
+            <Link to={"/project/" + props.project.slug}>
+              <div className="project-card">
+                <div className="productcard-box"> 
+                  <img src={props.project.productCard}/>
+                </div>
+                  <h4>{props.project.title}</h4>
               </div>
-                <h4>{props.project.title}</h4>
-             </div>
-        </Link>
+            </Link>
+        </div>
     );
   };
