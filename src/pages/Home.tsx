@@ -28,9 +28,13 @@ export const Home = () => {
                     <li>WebSockets</li>
                     <li>MySQL</li>
                     <li>Github</li>
+                    <li>Bootstrap</li>
                     <li>Vite</li>
                     <li>WooCommerce</li>
                     <li>E2E-testning</li>
+                    <li>Visual studio code</li>
+                    <li>Figma</li>
+                    <li>Canva</li>
                 </ul>
         </div>
         </>
