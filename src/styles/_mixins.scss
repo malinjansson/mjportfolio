@@ -2,6 +2,7 @@
 
 $desktop-max: v.$desktop - 1px;
 
+
 @mixin tablet {
   @media (min-width: v.$tablet) and (max-width: $desktop-max) {
     @content;
@@ -12,4 +13,18 @@ $desktop-max: v.$desktop - 1px;
   @media (min-width: v.$desktop) {
     @content;
   }
+}
+
+@mixin h3-mobile (
+  $font-family: v.$primary-font-family, 
+  $font-size: v.$h3-mobile, 
+  $text-transform: uppercase,
+  $letter-spacing: v.$heading-text-space,
+  $padding-bottom: v.$heading-padding-bottom, 
+  ) {
+  font-family: $font-family;
+  font-size: $font-size;
+  text-transform: $text-transform;
+  letter-spacing: $letter-spacing;
+  padding-bottom: $padding-bottom;
 }

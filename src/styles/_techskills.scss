@@ -13,10 +13,7 @@
 
 
     h3 {
-        font-family: v.$primary-font-family;
-        text-transform: uppercase;
-        letter-spacing: v.$heading-text-space;
-        padding-bottom: v.$heading-padding-bottom;
+        @include m.h3-mobile;
 
         @include m.desktop {
             font-size: v.$h3-desktop;
