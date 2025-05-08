@@ -32,7 +32,7 @@ header {
     font-family: v.$primary-font-family;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: v.$text-space;
     z-index: 1;
 
     @include m.desktop {
@@ -97,7 +97,7 @@ header {
             font-family: v.$primary-font-family;
             text-decoration: none;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: v.$text-space;
             color: v.$primary-color;
 
             &:hover {
