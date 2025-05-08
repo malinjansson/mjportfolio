@@ -1,13 +1,13 @@
 import { Project } from "../models/types/Project";
 import { ShowProject } from "./ShowProject";
 
-type ShowProjectsProps = {
+type ShowSelectedProjectsProps = {
     projects: Project[];
 }
 
-export const ShowProjects = (props: ShowProjectsProps) => {
+export const ShowSelectedProjects = (props: ShowSelectedProjectsProps) => {
     return (
-        <div className="projects">
+        <div className="selected-projects">
             {props.projects.map((project) => (
                 <ShowProject
                 key={project.title}

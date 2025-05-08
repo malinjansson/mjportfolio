@@ -1,4 +1,4 @@
-import { ShowProjects } from "../components/ShowProjects";
+import { ShowSelectedProjects } from "../components/ShowSelectedProjects";
 import { selectedProject } from "../models/selectedProject";
 import "./../styles/home.scss";
 
@@ -65,7 +65,7 @@ export const Home = () => {
 
         <div className="projects-container">
             <h3>Selected projects</h3>
-            <ShowProjects projects={selectedProject} />
+            <ShowSelectedProjects projects={selectedProject} />
         </div>
         </>
     )
