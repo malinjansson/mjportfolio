@@ -17,11 +17,31 @@
     .selected-projects {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
 
-        .project-card {
-            img {
-                width: 100%;
+        a {
+            font-family: v.$primary-font-family;
+            color: v.$primary-color;
+            text-decoration: none;
+
+            .project-card {
+                position: relative;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    transition: transform 0.4s ease;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+
+            h4 {
+                font-weight: 300;
+                margin-top: 0.3rem;
             }
         }
     }
