@@ -8,7 +8,7 @@
     text-align: left;
 
     @include m.desktop {
-        padding: 5rem 3rem;
+        padding: v.$body-padding-desktop;
     }
 
 

@@ -3,7 +3,7 @@
 
 
 .intro-container {
-    padding: v.$body-padding-mobile;
+    padding: 2.5rem 3rem;
     background-color: v.$primary-bg-color;
 
     @include m.desktop {
