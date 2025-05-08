@@ -12,6 +12,9 @@
 
     h3 {
         @include m.h3-mobile;
+        @include m.desktop {
+            font-size: v.$h3-desktop;
+        }
     }
 
     .selected-projects {
@@ -48,6 +51,10 @@
                 h4 {
                     font-weight: 300;
                     margin-top: 0.3rem;
+
+                    @include m.desktop {
+                        font-size: 1.3rem;
+                    }
                 }
             }
         }
