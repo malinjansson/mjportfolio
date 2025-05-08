@@ -1,0 +1,90 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    padding: v.$body-padding-mobile;
+    text-align: left;
+
+    @include m.desktop {
+        padding: 5rem 3rem;
+    }
+
+
+    h3 {
+        font-family: v.$primary-font-family;
+        text-transform: uppercase;
+        letter-spacing: v.$heading-text-space;
+        padding-bottom: v.$heading-padding-bottom;
+
+        @include m.desktop {
+            font-size: v.$h3-desktop;
+            padding-bottom: 3rem;
+        }
+    }
+
+    .tech-skills {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 1.2rem;
+
+        @include m.desktop {
+            gap: 3rem;
+        }
+
+        li {
+            font-family: v.$primary-font-family;
+            font-size: 12px;
+            letter-spacing: v.$text-space;
+
+            @include m.desktop {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+}
+
+.skills-scroll-banner {
+    width: 100%;
+    color: v.$primary-color;
+    border-top: 0.5px solid v.$primary-color;
+    border-bottom: 0.5px solid v.$primary-color;
+    padding: 2rem;
+    overflow: hidden;
+
+    .skills-scroll-content {
+        display: inline-block;
+        white-space: nowrap;
+        animation: scroll-loop 25s linear infinite;
+      }
+
+      span {
+        display: inline-block;
+        font-family: v.$primary-font-family;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: v.$text-space;
+        margin-right: 10px;
+
+        @include m.desktop {
+            font-size: 2rem;
+        }
+
+      }
+      
+      @keyframes scroll-loop {
+        0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+    }
+}
