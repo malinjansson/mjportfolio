@@ -1,3 +1,5 @@
+import { ShowProjects } from "../components/ShowProjects";
+import { selectedProject } from "../models/selectedProject";
 import "./../styles/home.scss";
 
 export const Home = () => {
@@ -59,6 +61,11 @@ export const Home = () => {
                     ~ API development ~  
                 </span>
             </div>
+        </div>
+
+        <div className="projects-container">
+            <h3>Selected projects</h3>
+            <ShowProjects projects={selectedProject} />
         </div>
         </>
     )
