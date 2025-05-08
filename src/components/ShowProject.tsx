@@ -10,7 +10,7 @@ type ShowProjectProps = {
         <Link to={"/project/" + props.project.slug}>
             <div className="project-card">
                 <img src={props.project.productCard}/>
-                <h5>{props.project.title}</h5>
+                <h4>{props.project.title}</h4>
              </div>
         </Link>
     );
