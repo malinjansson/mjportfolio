@@ -90,6 +90,10 @@
             position: relative;
             padding-bottom: 1.5rem;
 
+            @include m.desktop {
+               width: 50%;
+            }
+
             .background-color-box {
                 position: absolute;
                 top: -10px;

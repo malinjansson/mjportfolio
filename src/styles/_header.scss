@@ -24,7 +24,7 @@ header {
     
     @include m.desktop {
         flex-direction: row;
-        padding: 2.5rem 3rem;
+        padding: 4rem 10rem;
       }
   }
   
@@ -57,11 +57,10 @@ header {
     @include m.desktop {
         display: flex;
         flex-direction: row;
-        align-items: center;
         height: auto;
         width: auto;
         top: auto;
-        padding: 0;
+        right: 5rem;
         gap: 2rem;
       }
       
