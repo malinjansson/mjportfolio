@@ -2,6 +2,7 @@ import { useParams } from "react-router"
 import { ProjectDetails } from "../models/types/ProjectDetails";
 import { ShowProjectDetails } from "../components/ShowProjectDetails";
 import { getProjectBySlug } from "../utils/projectUtils";
+import "./../styles/projectdetails.scss";
 
 export const Project = () => {
     const {slug} = useParams();

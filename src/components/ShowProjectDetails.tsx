@@ -10,17 +10,25 @@ export const ShowProjectDetails = (props: ShowProjectDetailsProps) => {
         <div className="project-details-container">
             <div className="project-details-flex">
                 <div className="project-info">
-                    <h3>{props.project.title}</h3>
-                    <span className="project-course">{props.project.course}</span>
+                    <div className="project-details-heading">
+                        <h3>{props.project.title}</h3>
+                        <span className="project-course">{props.project.course}</span>
+                    </div>
                     <span className="project-description">{props.project.description}</span>
-                    <ul className="tech-list">
-                        {props.project.tech.map((tech, i) => (
-                            <li key={i}>{tech}</li>
-                        ))}
-                    </ul>
+                    <div className="project-tech">
+                        <h4>Tech</h4>
+                        <ul className="tech-list">
+                            {props.project.tech.map((tech, i) => (
+                                <li key={i}>{tech}</li>
+                            ))}
+                        </ul>
+                    </div>
                     <a href={props.project.github} target="_blank"><span className="github-btn">View the code on Github</span></a>
                 </div>
-                <img className="project-topimage" src={props.project.topimage} alt={props.project.title} />
+                <div className="project-top-image-container">
+                    <div className="background-color-box"></div>
+                    <img className="project-topimage" src={props.project.topimage} alt={props.project.title} />
+                </div>
             </div>
             <div className="project-demo">
                 {props.project.demo.map((demo, i) => (
