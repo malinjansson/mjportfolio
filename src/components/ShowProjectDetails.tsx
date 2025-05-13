@@ -14,7 +14,11 @@ export const ShowProjectDetails = (props: ShowProjectDetailsProps) => {
                         <h3>{props.project.title}</h3>
                         <span className="project-course">{props.project.course}</span>
                     </div>
-                    <p className="project-description">{props.project.description}</p>
+                    <div className="project-description">
+                        {props.project.description.map((description, i) => (
+                            <li key={i}>{description}</li>
+                        ))}
+                    </div>
                     <div className="project-tech">
                         <h4>Tech</h4>
                         <ul className="tech-list">
