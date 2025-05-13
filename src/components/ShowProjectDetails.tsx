@@ -14,7 +14,7 @@ export const ShowProjectDetails = (props: ShowProjectDetailsProps) => {
                         <h3>{props.project.title}</h3>
                         <span className="project-course">{props.project.course}</span>
                     </div>
-                    <span className="project-description">{props.project.description}</span>
+                    <p className="project-description">{props.project.description}</p>
                     <div className="project-tech">
                         <h4>Tech</h4>
                         <ul className="tech-list">
