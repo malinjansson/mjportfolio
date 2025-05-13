@@ -33,7 +33,9 @@ header {
     font-family: v.$primary-font-family;
     font-weight: 600;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: v.$text-space;
+    color: v.$primary-color;
     z-index: 1;
 
     @include m.desktop {
