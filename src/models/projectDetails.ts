@@ -36,4 +36,20 @@ export const projectDetails: ProjectDetails[] = [
         "/src/assets/liora/demo_seven.jpg",
         ]
     },
+    {
+        id: 3,
+        slug: "moviecloud",
+        title: "MovieCloud",
+        productCard:"/src/assets/ProductCardMovieCloud.jpg",
+        course: "System development framework, 2025",
+        description: ["MovieCloud is a movie site built using React, fetching and displaying movie information from an external API. Users can search for movies and view movie details.",
+        "I gained hands-on experience in API integration, extended my skills in React, and deepened my understanding of useState and the useEffect hook."],
+        tech: ["API", "React", "TypeScript", "SCSS"],
+        github: "https://github.com/malinjansson/MovieCloud", 
+        topimage:  "/src/assets/moviecloud/topimage.jpg",
+        demo: ["/src/assets/moviecloud/demo_one.png", 
+        "/src/assets/moviecloud/demo_two.png",
+        "/src/assets/moviecloud/demo_three.jpg",
+        ]
+    },
 ]
