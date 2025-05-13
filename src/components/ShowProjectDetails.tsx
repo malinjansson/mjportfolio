@@ -27,12 +27,14 @@ export const ShowProjectDetails = (props: ShowProjectDetailsProps) => {
                             ))}
                         </ul>
                     </div>
-                    <a href={props.project.github} target="_blank"><span className="github-btn">View the code on Github</span></a>
-                    {props.project.livedemo && (
-                        <a href={props.project.livedemo} target="_blank">
-                            <span className="github-btn">View live demo</span>
-                        </a>
-                    )}
+                    <div className="demo-links">
+                        <a href={props.project.github} target="_blank"><span className="demo-btn">View the code on Github</span></a>
+                        {props.project.livedemo && (
+                            <a href={props.project.livedemo} target="_blank">
+                                <span className="demo-btn">View live demo</span>
+                            </a>
+                        )}
+                    </div>
                 </div>
                 <div className="project-top-image-container">
                     <div className="background-color-box"></div>
