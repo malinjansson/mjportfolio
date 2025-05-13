@@ -95,20 +95,32 @@
                 text-decoration: none;
             }
 
-            .github-btn {
-                background-color: v.$primary-color;
-                color: v.$secondary-color;
-                padding: 10px;
-                border-radius: 5px;
-                
-                font-weight: 500;
-                font-size: 12px;
-                text-transform: uppercase;
-                letter-spacing: 1px;
+            .demo-links {
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
 
-                @include m.desktop {
-                    font-size: 1.2rem;
+                .demo-btn {
+                    background-color: v.$primary-color;
+                    color: v.$secondary-color;
+                    padding: 10px;
+                    border-radius: 5px;
+                    
+                    font-weight: 500;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+    
+                    @include m.desktop {
+                        font-size: 1.2rem;
+                    }
+
+                    &:hover {
+                        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+                        transition: box-shadow 0.2s ease-in-out;
+                    }
                 }
+
             }
         }
 
