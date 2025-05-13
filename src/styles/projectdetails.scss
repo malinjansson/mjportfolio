@@ -6,7 +6,7 @@
     text-align: left;
 
     @include m.desktop {
-        padding: v.$body-padding-desktop;
+        padding: 8rem 10rem;
     }
 
     .project-details-flex {
