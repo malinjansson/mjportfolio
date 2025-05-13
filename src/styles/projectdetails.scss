@@ -16,6 +16,7 @@
 
         @include m.desktop {
             flex-direction: row;
+            gap: 10rem;
         }
 
         .project-info {
@@ -27,6 +28,12 @@
             letter-spacing: v.$text-space;
             margin-bottom: 1.5rem;
 
+            @include m.desktop {
+                font-size: 1.2rem;
+                width: 50%;
+                gap: 2.5rem;
+            }
+
             .project-details-heading {
                 display: flex;
                 flex-direction: column;
@@ -37,6 +44,11 @@
                     font-size: 16px;
                     text-transform: uppercase;
                     letter-spacing: 0.2px;
+
+
+                    @include m.desktop {
+                       font-size: 1.8rem;
+                    }
                 }
                 
                 .project-course {
@@ -81,6 +93,10 @@
                 font-size: 12px;
                 text-transform: uppercase;
                 letter-spacing: 1px;
+
+                @include m.desktop {
+                    font-size: 1.2rem;
+                }
             }
         }
 
