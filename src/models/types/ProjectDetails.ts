@@ -6,6 +6,7 @@ export type ProjectDetails = Project & {
     description: string[];
     tech: string[];
     github: string;
+    livedemo?: string;
     topimage: string;
     demo: string[];
 }
