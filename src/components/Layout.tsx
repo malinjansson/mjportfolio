@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Outlet } from "react-router";
+import { NavLink, Outlet } from "react-router";
 import "./../styles/layout.scss";
 
 export const Layout = () => {
@@ -10,7 +10,7 @@ export const Layout = () => {
     return (
         <>
         <header className="header">
-            <div className="portfolio-name">Malin Jansson</div>
+            <NavLink to={"/"} className="portfolio-name">Malin Jansson</NavLink>
             <div className="menu-toggle" onClick={toggleMenu}>
                 {menuOpen ? "x" : "☰"}
             </div>
