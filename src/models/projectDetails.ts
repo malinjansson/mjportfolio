@@ -46,6 +46,7 @@ export const projectDetails: ProjectDetails[] = [
         "I gained hands-on experience in API integration, extended my skills in React, and deepened my understanding of useState and the useEffect hook."],
         tech: ["API", "React", "TypeScript", "SCSS"],
         github: "https://github.com/malinjansson/MovieCloud", 
+        livedemo: "https://apimoviecloud.vercel.app/",
         topimage:  "/src/assets/moviecloud/topimage.jpg",
         demo: ["/src/assets/moviecloud/demo_one.png", 
         "/src/assets/moviecloud/demo_two.png",
