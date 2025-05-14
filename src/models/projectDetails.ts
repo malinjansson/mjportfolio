@@ -10,7 +10,7 @@ export const projectDetails: ProjectDetails[] = [
         description: ["Liora is a poster webshop, designed with a modern and clean design, focused on providing a user-friendly experience. Key features include a home page, product detail page, shopping cart, and a checkout page. Users can add, remove, and adjust quantities of posters in the shopping cart. It automatically calculates the total price based on selected products.",
         "This project was developed using Agile methodology, with daily standups, sprint planning, and retrospectives for continuous improvement."],
         tech: ["HTML", "TypeScript", "SCSS"],
-        github: "https://github.com/malinnjansson/LioraWebshop",
+        github: "https://github.com/malinjansson/LioraWebshop",
         topimage: "/assets/liora/topimage.jpg",
         demo: ["/assets/liora/demo_one.jpg", 
         "/assets/liora/demo_two.jpg",
