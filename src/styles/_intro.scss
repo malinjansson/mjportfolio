@@ -44,6 +44,7 @@
             letter-spacing: v.$text-space;
             text-transform: uppercase;
             padding-top: 1rem;
+            color: #727765;
 
             @include m.desktop {
                 width: 100%;
