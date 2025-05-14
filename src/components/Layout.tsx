@@ -17,7 +17,7 @@ export const Layout = () => {
             <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                 <ul className="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="/aboutme">About me</a></li>
+                <li><a href="/#aboutme">About me</a></li>
                 <li><a href="/projects">Projects</a></li>
                 </ul>
                 <ul className="nav-some-links">

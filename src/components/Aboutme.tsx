@@ -3,7 +3,7 @@ export const Aboutme = () => {
 
     return (
         <>
-        <div className="aboutme-container">
+        <div className="aboutme-container" id="aboutme">
             <div className="aboutme-box">
                 <span>About me</span>
                 <div className="internship-wrapper">
