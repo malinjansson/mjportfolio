@@ -19,8 +19,9 @@ export const Techskills = () => {
                 <li>Bootstrap</li>
                 <li>Vite</li>
                 <li>WooCommerce</li>
+                <li>Contentful</li>
                 <li>E2E-testning</li>
-                <li>Visual studio code</li>
+                <li>Visual Studio Code</li>
                 <li>Figma</li>
                 <li>Canva</li>
             </ul>
