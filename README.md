@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+## Portfolio 
+This is a personal portfolio project built with **React**, **TypeScript**, and **SCSS**.
+[View my portfolio here!](https://malinjanssonportfolio.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview 
+- **Content**: A digital presentation of myself, my skills and selected projects I have created.
+- **Selected Projects**: The selected projects have a detailed page with a project description, the technologies used, and links to their respective repositories.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices to ensure a seamless user experience.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Run my todo-list application locally 
+### 1. Clone this repository 
+```
+https://github.com/malinjansson/mjportfolio.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+###  2. Navigate to the project folder
 ```
+cd mjportfolio
+```
+
+### 3. Install dependencies 
+```
+npm install
+npm install react-router
+```
+
+### 4. Run dev 
+Local:   http://localhost:5173/
+```
+npm run dev
+```
+
