@@ -4,13 +4,13 @@
 .aboutme-container {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem 2.3rem;
+    padding: 0 2.3rem;
     text-align: left;
 
     font-family: v.$primary-font-family;
 
     @include m.desktop {
-        padding: v.$body-padding-desktop;
+        padding: 2.5rem 10rem;
     }
 
     .aboutme-box {
@@ -69,13 +69,14 @@
         margin-top: 1.5rem;
 
         span {
-            width: 70%;
+            width: 100%;
             font-size: 14px;
             text-transform: none;
             line-height: 1.5;
 
             @include m.desktop {
                 font-size: 1.3rem;
+                width: 80%;
             }
         }
     }
