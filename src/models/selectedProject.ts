@@ -3,15 +3,15 @@ import { Project } from "./types/Project";
 export const selectedProject: Project[] = [
     {
         id: 1,
-        slug: "auctionhouse",
-        title: "Auction House",
-        productCard: "/assets/productcardauctionhouse.jpg",
-    },
-    {
-        id: 2,
         slug: "liora",
         title: "Liora",
         productCard:"/assets/productcardliora.jpg",
+    },
+    {
+        id: 2,
+        slug: "auctionhouse",
+        title: "Auction House",
+        productCard: "/assets/productcardauctionhouse.jpg",
     },
     {
         id: 3,

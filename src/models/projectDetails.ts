@@ -3,6 +3,26 @@ import { ProjectDetails } from "./types/ProjectDetails";
 export const projectDetails: ProjectDetails[] = [
     {
         id: 1,
+        slug: "liora",
+        title: "Liora",
+        productCard:"/assets/productcardliora.jpg",
+        course: "School project 2025 - Frontend development",
+        description: ["Liora is a poster webshop, designed with a modern and clean design, focused on providing a user-friendly experience. Key features include a home page, product detail page, shopping cart, and a checkout page. Users can add, remove, and adjust quantities of posters in the shopping cart. It automatic calculation of the total price based on selected products.",
+        "The project was developed using Agile methodology, with daily standups, sprint planning, and retrospectives for continuous improvement."],
+        tech: ["HTML", "TypeScript", "SCSS"],
+        github: "https://github.com/malinnjansson/LioraWebshop",
+        topimage: "/assets/liora/topimage.jpg",
+        demo: ["/assets/liora/demo_one.jpg", 
+        "/assets/liora/demo_two.jpg",
+        "/assets/liora/demo_three.jpg",
+        "/assets/liora/demo_four.jpg",
+        "/assets/liora/demo_five.jpg",
+        "/assets/liora/demo_six.jpg",
+        "/assets/liora/demo_seven.jpg",
+        ]
+    },
+    {
+        id: 2,
         slug: "auctionhouse",
         title: "Auction House",
         productCard: "/assets/productcardauctionhouse.jpg",
@@ -15,26 +35,6 @@ export const projectDetails: ProjectDetails[] = [
                "/assets/auctionhouse/demo_two.jpg",
                "/assets/auctionhouse/demo_three.jpg"
             ]
-    },
-    {
-        id: 2,
-        slug: "liora",
-        title: "Liora",
-        productCard:"/assets/productcardliora.jpg",
-        course: "School project 2025 - Frontend development",
-        description: ["Liora is a poster webshop, designed with a modern and clean design, focused on providing a user-friendly experience. Key features include a home page, product detail page, shopping cart, and a checkout page. Users can add, remove, and adjust quantities of posters in the shopping cart. It automatic calculation of the total price based on selected products.",
-        "The project was developed using Agile methodology, with daily standups, sprint planning, and retrospectives for continuous improvement."],
-        tech: ["HTML", "TypeScript", "SCSS"],
-        github: "https://github.com/malinjansson/LioraWebshop",
-        topimage: "/assets/liora/topimage.jpg",
-        demo: ["/assets/liora/demo_one.jpg", 
-        "/assets/liora/demo_two.jpg",
-        "/assets/liora/demo_three.jpg",
-        "/assets/liora/demo_four.jpg",
-        "/assets/liora/demo_five.jpg",
-        "/assets/liora/demo_six.jpg",
-        "/assets/liora/demo_seven.jpg",
-        ]
     },
     {
         id: 3,
