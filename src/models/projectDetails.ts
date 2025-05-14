@@ -80,4 +80,20 @@ export const projectDetails: ProjectDetails[] = [
         "/src/assets/posterstories/demo_seven.jpg",
         ]
     },
+    {
+        id: 5,
+        slug: "todolist",
+        title: "Todo list",
+        productCard:"/src/assets/ProductCardTodo.jpg",
+        course: "System development framework, 2025",
+        description: ["A todo-list application built with Vite and React. The user can add todos, remove todos, mark as done/undone and sort todos."],
+        tech: ["React", "TypeScript", "SCSS"],
+        github: "https://github.com/malinjansson/TodoReact",
+        livedemo: "https://malintodos.vercel.app/",
+        topimage: "/src/assets/todos/topimage.jpg",
+        demo: ["/src/assets/todos/demo_one.png", 
+        "/src/assets/todos/demo_two.jpg",
+        "/src/assets/todos/demo_three.png"
+        ]
+    },
 ]
