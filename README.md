@@ -1,5 +1,6 @@
 ## Portfolio 
 This is a personal portfolio project built with **React**, **TypeScript**, and **SCSS**.
+
 [View my portfolio here!](https://malinjanssonportfolio.vercel.app/)
 
 ## Overview 
