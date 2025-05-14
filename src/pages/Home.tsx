@@ -26,9 +26,9 @@ export const Home = () => {
         </div>
 
         <Aboutme />
-
-        <Techskills/>
         <Skills />
+        <Techskills/>
+        
     
         <div className="projects-container">
             <h3>Selected projects</h3>
