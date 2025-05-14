@@ -14,7 +14,7 @@ export const Home = () => {
                 <span>{"<"} Ecommerce</span>
                 <span>Web developer /{">"}</span>
             </div>
-            <img className="profile-img" src="src/assets/profileImg.jpg" alt="Profile image"/>
+            <img className="profile-img" src="/assets/profileImg.jpg" alt="Profile image"/>
         </div>
         <svg className="wave-divider" viewBox="0 0 1440 320" preserveAspectRatio="none">
                 <path d="M0,160 
