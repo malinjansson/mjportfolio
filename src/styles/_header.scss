@@ -114,6 +114,11 @@ header {
   }
 
   .nav-some-links {
+    margin-bottom: 5rem;
+
+    @include m.desktop {
+      margin-bottom: 0;
+    }
         li {
             display: flex;
             justify-content: center;
