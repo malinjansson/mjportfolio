@@ -1,3 +1,4 @@
+import { Aboutme } from "../components/Aboutme";
 import { ShowSelectedProjects } from "../components/ShowSelectedProjects";
 import { Skills } from "../components/Skills";
 import { Techskills } from "../components/Techskills";
@@ -10,12 +11,10 @@ export const Home = () => {
         <div className="intro-wrapper">
         <div className="intro-container">
             <div className="intro-box">
-                <span>
-                I'm Malin - I have a Bachelor's Degree in Media and Communication Science 
-                and am currently expanding my skills in web development, focusing on e-commerce.
-                </span>
-                <img className="profile-img" src="src/assets/profileImg.jpg" alt="Profile image"/>
+                <span>{"<"} Ecommerce</span>
+                <span>Web developer /{">"}</span>
             </div>
+            <img className="profile-img" src="src/assets/profileImg.jpg" alt="Profile image"/>
         </div>
         <svg className="wave-divider" viewBox="0 0 1440 320" preserveAspectRatio="none">
                 <path d="M0,160 
@@ -25,14 +24,16 @@ export const Home = () => {
                 />
         </svg>
         </div>
+
+        <Aboutme />
+
+        <Techskills/>
+        <Skills />
     
         <div className="projects-container">
             <h3>Selected projects</h3>
             <ShowSelectedProjects projects={selectedProject} />
         </div>
-
-        <Skills />
-        <Techskills/>
 
         </>
     )
