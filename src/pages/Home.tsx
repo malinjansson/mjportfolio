@@ -30,7 +30,7 @@ export const Home = () => {
         <Techskills/>
         
     
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             <h3>Selected projects</h3>
             <ShowSelectedProjects projects={selectedProject} />
         </div>

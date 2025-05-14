@@ -5,6 +5,7 @@
     width: 100%;
     padding: v.$body-padding-mobile;
     text-align: left;
+    scroll-margin-top: 100px; 
 
     @include m.desktop {
         padding: v.$body-padding-desktop;

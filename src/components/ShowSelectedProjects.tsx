@@ -7,7 +7,7 @@ type ShowSelectedProjectsProps = {
 
 export const ShowSelectedProjects = (props: ShowSelectedProjectsProps) => {
     return (
-        <div className="selected-projects" id="projects">
+        <div className="selected-projects">
             {props.projects.map((project) => (
                 <ShowProject
                 key={project.title}
