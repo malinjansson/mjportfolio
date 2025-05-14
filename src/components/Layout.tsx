@@ -16,9 +16,9 @@ export const Layout = () => {
             </div>
             <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                 <ul className="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/#aboutme">About me</a></li>
-                <li><a href="/#projects">Projects</a></li>
+                <li><a href="/" onClick={toggleMenu}>Home</a></li>
+                <li><a href="/#aboutme" onClick={toggleMenu}>About me</a></li>
+                <li><a href="/#projects" onClick={toggleMenu}>Projects</a></li>
                 </ul>
                 <ul className="nav-some-links">
                 <li>
