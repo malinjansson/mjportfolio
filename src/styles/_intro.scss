@@ -46,7 +46,9 @@
             padding-top: 1rem;
 
             @include m.desktop {
-                font-size: 5rem;
+                width: 100%;
+                font-size: 5vw;
+                text-align: justify;
                 line-height: 2rem;
             }
         }
