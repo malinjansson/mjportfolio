@@ -69,9 +69,14 @@
         margin-top: 1.5rem;
 
         span {
+            width: 70%;
             font-size: 14px;
             text-transform: none;
             line-height: 1.5;
+
+            @include m.desktop {
+                font-size: 1.3rem;
+            }
         }
     }
 }
