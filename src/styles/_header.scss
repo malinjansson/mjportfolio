@@ -124,10 +124,6 @@ header {
             font-size: 2.5rem;
             color: v.$primary-color;
         }
-
-        @include m.desktop {
-        display: none;
-        }
   }
   
   .menu-toggle {
