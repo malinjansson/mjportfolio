@@ -47,6 +47,16 @@
 
 }
 
+.skills-banner-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    @include m.desktop {
+        margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+}
+
 .skills-scroll-banner {
     width: 100%;
     color: v.$primary-color;
