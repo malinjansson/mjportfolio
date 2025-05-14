@@ -59,7 +59,7 @@ export const projectDetails: ProjectDetails[] = [
         title: "Poster Stories",
         productCard:"/assets/productcardposterstories.jpg",
         course: "School project 2025 - System development",
-        description: ["Poster stories is a e-commerce website built using PHP and MySQL. The application features a normalized database and includes user and product management. Key features includes:", 
+        description: ["Poster stories is a e-commerce website built using PHP and MySQL. The application features a normalized database and includes user and product management. Key features include:", 
         "• Homepage displaying 10 bestsellers",
         "• All products belong to one category",
         "• Global search functionality",
